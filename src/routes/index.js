@@ -5,7 +5,6 @@ router.get('/', (req, res) => {
 })
 
 router.get('/other', (req, res) => {
-    console.log('pasa00');
     res.render('books/books');
 })
 
