@@ -22,6 +22,7 @@ app.use(express.urlencoded({
 }))
 
 
+
 app.use(require('./routes/index'));
 app.use(require('./routes/book'));
 app.use(require('./routes/magazine'));
